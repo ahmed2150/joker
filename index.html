@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@JOKER_972005 - المنصة التعليمية</title>
+    <link rel="stylesheet" href="موقع شخصي.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- شريط التنبيهات -->
+    <div class="alert-bar">
+        <div class="container">
+            <marquee behavior="scroll" direction="right">
+                🎓 مرحباً بكم في منصة JOKER_972005 التعليمية | 📅 العام الدراسي 2024 | 📢 آخر تحديث: تم رفع جميع مواد الترم الأول
+            </marquee>
+            <button class="close-alert"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+
+    <!-- رأس الصفحة -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-top">
+                <div class="college-brand">
+                    <div class="logo">
+                        <span class="joker-logo">J</span>
+                        <div class="logo-text">
+                            <h1>@JOKER_972005</h1>
+                            <p>المنصة التعليمية للكلية</p>
+                        </div>
+                    </div>
+                    <div class="academic-year">
+                        <span>2023/2024</span>
+                        <span>الفصل الدراسي الثاني</span>
+                    </div>
+                </div>
+                
+                <div class="header-stats">
+                    <div class="stat">
+                        <i class="fas fa-users"></i>
+                        <div>
+                            <span class="number">1500+</span>
+                            <span class="label">طالب</span>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-book"></i>
+                        <div>
+                            <span class="number">40+</span>
+                            <span class="label">مادة</span>
+                        </div>
+                    </div>
+                    <div class="stat">
+                        <i class="fas fa-file-pdf"></i>
+                        <div>
+                            <span class="number">500+</span>
+                            <span class="label">ملف PDF</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home" class="active"><i class="fas fa-home"></i> الرئيسية</a></li>
+                    <li class="dropdown">
+                        <a href="#"><i class="fas fa-graduation-cap"></i> الفرق الدراسية <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-menu">
+                            <a href="#year1">الفرقة الأولى</a>
+                            <a href="#year2">الفرقة الثانية</a>
+                            <a href="#year3">الفرقة الثالثة</a>
+                            <a href="#year4">الفرقة الرابعة</a>
+                        </div>
+                    </li>
+                    <li><a href="#programming"><i class="fas fa-code"></i> كورسات البرمجة</a></li>
+                    <li><a href="#exams"><i class="fas fa-clipboard-list"></i> الامتحانات</a></li>
+                    <li><a href="#library"><i class="fas fa-book-open"></i> المكتبة</a></li>
+                    <li><a href="#contact"><i class="fas fa-headset"></i> الدعم</a></li>
+                </ul>
+                
+                <div class="nav-buttons">
+                    <button class="btn login-btn"><i class="fas fa-sign-in-alt"></i> دخول الطالب</button>
+                    <button class="btn dark-mode-btn" id="darkModeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <main class="container">
+        <!-- قسم الترحيب -->
+        <section class="welcome-section" id="home">
+            <div class="welcome-content">
+                <h2>مرحباً بك في المنصة التعليمية <span class="highlight">@JOKER_972005</span></h2>
+                <p class="subtitle">منصة متكاملة لمواد الكلية والمحاضرات والكورسات البرمجية</p>
+                
+                <div class="quick-links">
+                    <a href="#year1" class="quick-link">
+                        <i class="fas fa-user-graduate"></i>
+                        <span>الفرقة الأولى</span>
+                    </a>
+                    <a href="#year3" class="quick-link">
+                        <i class="fas fa-code-branch"></i>
+                        <span>شعب الفرقة الثالثة</span>
+                    </a>
+                    <a href="#programming" class="quick-link">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>كورسات البرمجة</span>
+                    </a>
+                    <a href="#library" class="quick-link">
+                        <i class="fas fa-download"></i>
+                        <span>مركز التحميلات</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="welcome-stats">
+                <div class="stat-card">
+                    <i class="fas fa-layer-group"></i>
+                    <h3>4 فرق دراسية</h3>
+                    <p>بشعبتين في الفرقة الثالثة والرابعة</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-book-reader"></i>
+                    <h3>8 ترم دراسي</h3>
+                    <p>بما مجموعه 40+ مادة دراسية</p>
+                </div>
+                <div class="stat-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>500+ ملف تعليمي</h3>
+                    <p>PDF، عروض، امتحانات</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم الفرق الدراسية -->
+        <section class="years-section">
+            <!-- الفرقة الأولى -->
+            <div class="year-container" id="year1">
+                <div class="year-header">
+                    <h2><i class="fas fa-1"></i> الفرقة الأولى</h2>
+                    <span class="year-badge">4 فصول | 11 مادة</span>
+                </div>
+                
+                <div class="terms-grid">
+                    <!-- الترم الأول -->
+                    <div class="term-card">
+                        <div class="term-header">
+                            <h3><i class="fas fa-bookmark"></i> الترم الأول</h3>
+                            <span class="material-count">5 مواد</span>
+                        </div>
+                        <div class="materials-list">
+                            <div class="material-item" data-pdf="materials/year1/term1/math1.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>رياضيات 1</span>
+                                <span class="file-size">3.2 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year1/term1/programming1.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>مبادئ البرمجة</span>
+                                <span class="file-size">4.1 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year1/term1/accounting1.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>مبادئ المحاسبة</span>
+                                <span class="file-size">2.8 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year1/term1/management.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>مبادئ الإدارة</span>
+                                <span class="file-size">3.5 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year1/term1/english1.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>لغة إنجليزية 1</span>
+                                <span class="file-size">2.1 MB</span>
+                            </div>
+                        </div>
+                        <button class="btn term-download-btn">
+                            <i class="fas fa-download"></i> تحميل جميع المواد
+                        </button>
+                    </div>
+                    
+                    <!-- الترم الثاني -->
+                    <div class="term-card">
+                        <div class="term-header">
+                            <h3><i class="fas fa-bookmark"></i> الترم الثاني</h3>
+                            <span class="material-count">6 مواد</span>
+                        </div>
+                        <div class="materials-list">
+                            <div class="material-item" data-pdf="materials/year1/term2/math2.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>رياضيات 2</span>
+                                <span class="file-size">3.8 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year1/term2/programming2.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>برمجة متقدمة</span>
+                                <span class="file-size">5.2 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year1/term2/accounting2.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>محاسبة متوسطة</span>
+                                <span class="file-size">4.3 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year1/term2/marketing.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>مبادئ التسويق</span>
+                                <span class="file-size">3.1 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year1/term2/statistics.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>إحصاء</span>
+                                <span class="file-size">4.7 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year1/term2/english2.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>لغة إنجليزية 2</span>
+                                <span class="file-size">2.4 MB</span>
+                            </div>
+                        </div>
+                        <button class="btn term-download-btn">
+                            <i class="fas fa-download"></i> تحميل جميع المواد
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- الفرقة الثانية -->
+            <div class="year-container" id="year2">
+                <div class="year-header">
+                    <h2><i class="fas fa-2"></i> الفرقة الثانية</h2>
+                    <span class="year-badge">4 فصول | 11 مادة</span>
+                </div>
+                
+                <div class="terms-grid">
+                    <!-- الترم الأول -->
+                    <div class="term-card">
+                        <div class="term-header">
+                            <h3><i class="fas fa-bookmark"></i> الترم الأول</h3>
+                            <span class="material-count">5 مواد</span>
+                        </div>
+                        <div class="materials-list">
+                            <div class="material-item" data-pdf="materials/year2/term1/databases.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>قواعد البيانات</span>
+                                <span class="file-size">4.5 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year2/term1/financial_accounting.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>محاسبة مالية</span>
+                                <span class="file-size">3.9 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year2/term1/web1.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>برمجة الويب 1</span>
+                                <span class="file-size">5.6 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year2/term1/operations.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>بحوث العمليات</span>
+                                <span class="file-size">4.2 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year2/term1/economics.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>اقتصاد إداري</span>
+                                <span class="file-size">3.7 MB</span>
+                            </div>
+                        </div>
+                        <button class="btn term-download-btn">
+                            <i class="fas fa-download"></i> تحميل جميع المواد
+                        </button>
+                    </div>
+                    
+                    <!-- الترم الثاني -->
+                    <div class="term-card">
+                        <div class="term-header">
+                            <h3><i class="fas fa-bookmark"></i> الترم الثاني</h3>
+                            <span class="material-count">6 مواد</span>
+                        </div>
+                        <div class="materials-list">
+                            <div class="material-item" data-pdf="materials/year2/term2/databases2.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>قواعد بيانات متقدمة</span>
+                                <span class="file-size">5.1 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year2/term2/cost_accounting.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>محاسبة تكاليف</span>
+                                <span class="file-size">4.8 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year2/term2/web2.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>برمجة الويب 2</span>
+                                <span class="file-size">6.3 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year2/term2/networks.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>شبكات الحاسب</span>
+                                <span class="file-size">4.9 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year2/term2/financial_management.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>إدارة مالية</span>
+                                <span class="file-size">4.0 MB</span>
+                            </div>
+                            <div class="material-item" data-pdf="materials/year2/term2/project_management.pdf">
+                                <i class="fas fa-file-pdf"></i>
+                                <span>إدارة مشروعات</span>
+                                <span class="file-size">3.5 MB</span>
+                            </div>
+                        </div>
+                        <button class="btn term-download-btn">
+                            <i class="fas fa-download"></i> تحميل جميع المواد
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- الفرقة الثالثة -->
+            <div class="year-container" id="year3">
+                <div class="year-header">
+                    <h2><i class="fas fa-3"></i> الفرقة الثالثة</h2>
+                    <span class="year-badge">شعبتين | 24 مادة</span>
+                </div>
+                
+                <div class="branch-tabs">
+                    <button class="branch-tab active" data-branch="mis">نظم معلومات الأعمال</button>
+                    <button class="branch-tab" data-branch="accounting">محاسبة ومراجعة</button>
+                </div>
+                
+                <!-- شعبة نظم معلومات الأعمال -->
+                <div class="branch-content active" id="mis-branch">
+                    <div class="terms-grid">
+                        <!-- الترم الأول -->
+                        <div class="term-card">
+                            <div class="term-header">
+                                <h3><i class="fas fa-laptop-code"></i> نظم معلومات الأعمال - الترم الأول</h3>
+                                <span class="material-count">6 مواد</span>
+                            </div>
+                            <div class="materials-list">
+                                <div class="material-item" data-pdf="materials/year3/mis/term1/mis1.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>نظم المعلومات الإدارية 1</span>
+                                    <span class="file-size">5.2 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/mis/term1/system_analysis.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>تحليل وتصميم النظم</span>
+                                    <span class="file-size">6.1 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/mis/term1/database_admin.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>إدارة قواعد البيانات</span>
+                                    <span class="file-size">4.8 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/mis/term1/web_programming.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>برمجة الويب المتقدمة</span>
+                                    <span class="file-size">7.3 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/mis/term1/ecommerce.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>التجارة الإلكترونية</span>
+                                    <span class="file-size">4.5 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/mis/term1/management_info.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>نظم دعم القرار</span>
+                                    <span class="file-size">5.6 MB</span>
+                                </div>
+                            </div>
+                            <button class="btn term-download-btn">
+                                <i class="fas fa-download"></i> تحميل جميع المواد
+                            </button>
+                        </div>
+                        
+                        <!-- الترم الثاني -->
+                        <div class="term-card">
+                            <div class="term-header">
+                                <h3><i class="fas fa-laptop-code"></i> نظم معلومات الأعمال - الترم الثاني</h3>
+                                <span class="material-count">6 مواد</span>
+                            </div>
+                            <div class="materials-list">
+                                <div class="material-item" data-pdf="materials/year3/mis/term2/mis2.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>نظم المعلومات الإدارية 2</span>
+                                    <span class="file-size">5.8 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/mis/term2/big_data.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>البيانات الضخمة</span>
+                                    <span class="file-size">6.5 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/mis/term2/cloud_computing.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>الحوسبة السحابية</span>
+                                    <span class="file-size">5.3 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/mis/term2/security.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>أمن المعلومات</span>
+                                    <span class="file-size">4.9 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/mis/term2/mobile_apps.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>تطبيقات الموبايل</span>
+                                    <span class="file-size">7.1 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/mis/term2/project.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>مشروع التخرج 1</span>
+                                    <span class="file-size">8.2 MB</span>
+                                </div>
+                            </div>
+                            <button class="btn term-download-btn">
+                                <i class="fas fa-download"></i> تحميل جميع المواد
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- شعبة محاسبة ومراجعة -->
+                <div class="branch-content" id="accounting-branch">
+                    <div class="terms-grid">
+                        <!-- الترم الأول -->
+                        <div class="term-card">
+                            <div class="term-header">
+                                <h3><i class="fas fa-calculator"></i> محاسبة ومراجعة - الترم الأول</h3>
+                                <span class="material-count">6 مواد</span>
+                            </div>
+                            <div class="materials-list">
+                                <div class="material-item" data-pdf="materials/year3/accounting/term1/advanced_accounting.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>محاسبة متقدمة 1</span>
+                                    <span class="file-size">4.9 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/accounting/term1/tax_accounting.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>محاسبة ضريبية</span>
+                                    <span class="file-size">5.3 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/accounting/term1/auditing1.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>مراجعة 1</span>
+                                    <span class="file-size">4.7 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/accounting/term1/financial_analysis.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>تحليل مالي</span>
+                                    <span class="file-size">5.1 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/accounting/term1/cost_accounting2.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>محاسبة تكاليف متقدمة</span>
+                                    <span class="file-size">4.8 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/accounting/term1/accounting_systems.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>نظم المعلومات المحاسبية</span>
+                                    <span class="file-size">5.6 MB</span>
+                                </div>
+                            </div>
+                            <button class="btn term-download-btn">
+                                <i class="fas fa-download"></i> تحميل جميع المواد
+                            </button>
+                        </div>
+                        
+                        <!-- الترم الثاني -->
+                        <div class="term-card">
+                            <div class="term-header">
+                                <h3><i class="fas fa-calculator"></i> محاسبة ومراجعة - الترم الثاني</h3>
+                                <span class="material-count">6 مواد</span>
+                            </div>
+                            <div class="materials-list">
+                                <div class="material-item" data-pdf="materials/year3/accounting/term2/advanced_accounting2.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>محاسبة متقدمة 2</span>
+                                    <span class="file-size">5.4 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/accounting/term2/government_accounting.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>محاسبة حكومية</span>
+                                    <span class="file-size">4.9 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/accounting/term2/auditing2.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>مراجعة 2</span>
+                                    <span class="file-size">5.2 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/accounting/term2/international_accounting.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>محاسبة دولية</span>
+                                    <span class="file-size">5.7 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/accounting/term2/budgeting.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>إعداد الموازنات</span>
+                                    <span class="file-size">4.6 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year3/accounting/term2/project2.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>مشروع التخرج 1</span>
+                                    <span class="file-size">7.8 MB</span>
+                                </div>
+                            </div>
+                            <button class="btn term-download-btn">
+                                <i class="fas fa-download"></i> تحميل جميع المواد
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- الفرقة الرابعة -->
+            <div class="year-container" id="year4">
+                <div class="year-header">
+                    <h2><i class="fas fa-4"></i> الفرقة الرابعة</h2>
+                    <span class="year-badge">شعبتين | 22 مادة</span>
+                </div>
+                
+                <div class="branch-tabs">
+                    <button class="branch-tab active" data-branch="mis4">نظم معلومات الأعمال</button>
+                    <button class="branch-tab" data-branch="accounting4">محاسبة ومراجعة</button>
+                </div>
+                
+                <!-- شعبة نظم معلومات الأعمال -->
+                <div class="branch-content active" id="mis4-branch">
+                    <div class="terms-grid">
+                        <!-- الترم الأول -->
+                        <div class="term-card">
+                            <div class="term-header">
+                                <h3><i class="fas fa-laptop-code"></i> نظم معلومات الأعمال - الترم الأول</h3>
+                                <span class="material-count">4 مواد</span>
+                            </div>
+                            <div class="materials-list">
+                                <div class="material-item" data-pdf="materials/year4/mis/term1/strategic_mis.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>نظم معلومات استراتيجية</span>
+                                    <span class="file-size">6.3 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/mis/term1/ai_business.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>الذكاء الاصطناعي في الأعمال</span>
+                                    <span class="file-size">7.2 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/mis/term1/business_intelligence.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>ذكاء الأعمال</span>
+                                    <span class="file-size">5.8 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/mis/term1/erp.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>نظم تخطيط موارد المؤسسة</span>
+                                    <span class="file-size">6.7 MB</span>
+                                </div>
+                            </div>
+                            <button class="btn term-download-btn">
+                                <i class="fas fa-download"></i> تحميل جميع المواد
+                            </button>
+                        </div>
+                        
+                        <!-- الترم الثاني -->
+                        <div class="term-card">
+                            <div class="term-header">
+                                <h3><i class="fas fa-laptop-code"></i> نظم معلومات الأعمال - الترم الثاني</h3>
+                                <span class="material-count">7 مواد</span>
+                            </div>
+                            <div class="materials-list">
+                                <div class="material-item" data-pdf="materials/year4/mis/term2/data_science.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>علم البيانات</span>
+                                    <span class="file-size">7.5 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/mis/term2/it_governance.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>حوكمة تقنية المعلومات</span>
+                                    <span class="file-size">6.2 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/mis/term2/digital_transformation.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>التحول الرقمي</span>
+                                    <span class="file-size">5.9 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/mis/term2/cyber_security.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>الأمن السيبراني</span>
+                                    <span class="file-size">6.8 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/mis/term2/iot.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>إنترنت الأشياء</span>
+                                    <span class="file-size">6.1 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/mis/term2/business_analytics.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>تحليلات الأعمال</span>
+                                    <span class="file-size">7.3 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/mis/term2/graduation_project.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>مشروع التخرج النهائي</span>
+                                    <span class="file-size">15.2 MB</span>
+                                </div>
+                            </div>
+                            <button class="btn term-download-btn">
+                                <i class="fas fa-download"></i> تحميل جميع المواد
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- شعبة محاسبة ومراجعة -->
+                <div class="branch-content" id="accounting4-branch">
+                    <div class="terms-grid">
+                        <!-- الترم الأول -->
+                        <div class="term-card">
+                            <div class="term-header">
+                                <h3><i class="fas fa-calculator"></i> محاسبة ومراجعة - الترم الأول</h3>
+                                <span class="material-count">5 مواد</span>
+                            </div>
+                            <div class="materials-list">
+                                <div class="material-item" data-pdf="materials/year4/accounting/term1/advanced_financial.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>محاسبة مالية متقدمة</span>
+                                    <span class="file-size">6.1 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/accounting/term1/auditing_standards.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>معايير المراجعة</span>
+                                    <span class="file-size">5.8 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/accounting/term1/tax_planning.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>التخطيط الضريبي</span>
+                                    <span class="file-size">5.4 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/accounting/term1/forensic_accounting.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>المحاسبة الجنائية</span>
+                                    <span class="file-size">6.3 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/accounting/term1/accounting_theory.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>نظرية المحاسبة</span>
+                                    <span class="file-size">5.9 MB</span>
+                                </div>
+                            </div>
+                            <button class="btn term-download-btn">
+                                <i class="fas fa-download"></i> تحميل جميع المواد
+                            </button>
+                        </div>
+                        
+                        <!-- الترم الثاني -->
+                        <div class="term-card">
+                            <div class="term-header">
+                                <h3><i class="fas fa-calculator"></i> محاسبة ومراجعة - الترم الثاني</h3>
+                                <span class="material-count">6 مواد</span>
+                            </div>
+                            <div class="materials-list">
+                                <div class="material-item" data-pdf="materials/year4/accounting/term2/consolidation.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>محاسبة المجموعات</span>
+                                    <span class="file-size">6.7 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/accounting/term2/internal_auditing.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>المراجعة الداخلية</span>
+                                    <span class="file-size">5.5 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/accounting/term2/international_tax.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>الضرائب الدولية</span>
+                                    <span class="file-size">6.2 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/accounting/term2/corporate_governance.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>حوكمة الشركات</span <div class="material-item" data-pdf="materials/year4/accounting/term2/management_control.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>نظم الرقابة الإدارية</span>
+                                    <span class="file-size">5.8 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/accounting/term2/accounting_research.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>بحث في المحاسبة</span>
+                                    <span class="file-size">7.1 MB</span>
+                                </div>
+                                <div class="material-item" data-pdf="materials/year4/accounting/term2/final_project.pdf">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>مشروع التخرج النهائي</span>
+                                    <span class="file-size">16.3 MB</span>
+                                </div>
+                            </div>
+                            <button class="btn term-download-btn">
+                                <i class="fas fa-download"></i> تحميل جميع المواد
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم كورسات البرمجة -->
+        <section class="programming-section" id="programming">
+            <div class="section-header">
+                <h2><i class="fas fa-code"></i> كورسات البرمجة</h2>
+                <p class="section-subtitle">دورات برمجة متخصصة لتطوير مهاراتك التقنية</p>
+            </div>
+            
+            <div class="courses-categories">
+                <div class="category-tabs">
+                    <button class="cat-tab active" data-category="web">تطوير الويب</button>
+                    <button class="cat-tab" data-category="mobile">تطبيقات الموبايل</button>
+                    <button class="cat-tab" data-category="data">علم البيانات</button>
+                    <button class="cat-tab" data-category="general">برمجة عامة</button>
+                </div>
+                
+                <div class="courses-grid">
+                    <!-- كورسات تطوير الويب -->
+                    <div class="course-card active" data-category="web">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h3>تطوير الويب المتكامل</h3>
+                            <span class="course-level">مستوى متقدم</span>
+                        </div>
+                        <div class="course-content">
+                            <p>دورة شاملة لتعلم HTML, CSS, JavaScript, React, Node.js</p>
+                            <div class="course-details">
+                                <span><i class="fas fa-clock"></i> 120 ساعة</span>
+                                <span><i class="fas fa-file-pdf"></i> 45 ملف</span>
+                                <span><i class="fas fa-video"></i> 60 فيديو</span>
+                            </div>
+                            <div class="course-files">
+                                <div class="file-item">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>مقدمة في HTML</span>
+                                    <a href="courses/web/html-basics.pdf" class="download-small" download>
+                                        <i class="fas fa-download"></i>
+                                    </a>
+                                </div>
+                                <div class="file-item">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>CSS المتقدم</span>
+                                    <a href="courses/web/advanced-css.pdf" class="download-small" download>
+                                        <i class="fas fa-download"></i>
+                                    </a>
+                                </div>
+                                <div class="file-item">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>JavaScript ES6+</span>
+                                    <a href="courses/web/javascript-es6.pdf" class="download-small" download>
+                                        <i class="fas fa-download"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <button class="btn course-btn">
+                                <i class="fas fa-external-link-alt"></i> عرض الكورس كاملاً
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="course-card active" data-category="web">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <h3>React.js الاحترافي</h3>
+                            <span class="course-level">مستوى متوسط</span>
+                        </div>
+                        <div class="course-content">
+                            <p>تعلم بناء تطبيقات ويب ديناميكية باستخدام React و Redux</p>
+                            <div class="course-details">
+                                <span><i class="fas fa-clock"></i> 80 ساعة</span>
+                                <span><i class="fas fa-file-pdf"></i> 30 ملف</span>
+                                <span><i class="fas fa-video"></i> 40 فيديو</span>
+                            </div>
+                            <div class="course-files">
+                                <div class="file-item">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>مقدمة في React</span>
+                                    <a href="courses/web/react-intro.pdf" class="download-small" download>
+                                        <i class="fas fa-download"></i>
+                                    </a>
+                                </div>
+                                <div class="file-item">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span>Hooks و State</span>
+                                    <a href="courses/web/react-hooks.pdf" class="download-small" download>
+                                        <i class="fas fa-download"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <button class="btn course-btn">
+                                <i class="fas fa-external-link-alt"></i> عرض الكورس كاملاً
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- كورسات تطبيقات الموبايل -->
+                    <div class="course-card" data-category="mobile">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fab fa-android"></i>
+                            </div>
+                            <h3>تطوير تطبيقات Android</h3>
+                            <span class="course-level">مستوى مبتدئ</span>
+                        </div>
+                        <div class="course-content">
+                            <p>تعلم بناء تطبيقات Android باستخدام Kotlin و Java</p>
+                            <div class="course-details">
+                                <span><i class="fas fa-clock"></i> 100 ساعة</span>
+                                <span><i class="fas fa-file-pdf"></i> 35 ملف</span>
+                                <span><i class="fas fa-video"></i> 50 فيديو</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- كورسات علم البيانات -->
+                    <div class="course-card" data-category="data">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <h3>علم البيانات مع Python</h3>
+                            <span class="course-level">مستوى متوسط</span>
+                        </div>
+                        <div class="course-content">
+                            <p>تعلم تحليل البيانات باستخدام Python، Pandas، و Machine Learning</p>
+                            <div class="course-details">
+                                <span><i class="fas fa-clock"></i> 150 ساعة</span>
+                                <span><i class="fas fa-file-pdf"></i> 50 ملف</span>
+                                <span><i class="fas fa-video"></i> 70 فيديو</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- كورسات برمجة عامة -->
+                    <div class="course-card" data-category="general">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h3>قواعد البيانات SQL</h3>
+                            <span class="course-level">مستوى مبتدئ</span>
+                        </div>
+                        <div class="course-content">
+                            <p>تعلم تصميم وإدارة قواعد البيانات باستخدام SQL</p>
+                            <div class="course-details">
+                                <span><i class="fas fa-clock"></i> 60 ساعة</span>
+                                <span><i class="fas fa-file-pdf"></i> 25 ملف</span>
+                                <span><i class="fas fa-video"></i> 30 فيديو</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم المكتبة العامة -->
+        <section class="library-section" id="library">
+            <div class="section-header">
+                <h2><i class="fas fa-book-open"></i> المكتبة العامة</h2>
+                <p class="section-subtitle">مركز تحميل جميع الملفات الدراسية والكورسات</p>
+            </div>
+            
+            <div class="library-tools">
+                <div class="search-box">
+                    <input type="text" id="librarySearch" placeholder="ابحث عن ملف أو مادة...">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                
+                <div class="filter-options">
+                    <select id="fileTypeFilter">
+                        <option value="all">جميع أنواع الملفات</option>
+                        <option value="pdf">ملفات PDF</option>
+                        <option value="ppt">عروض تقديمية</option>
+                        <option value="doc">مستندات Word</option>
+                        <option value="video">فيديو</option>
+                    </select>
+                    
+                    <select id="yearFilter">
+                        <option value="all">جميع الفرق</option>
+                        <option value="year1">الفرقة الأولى</option>
+                        <option value="year2">الفرقة الثانية</option>
+                        <option value="year3">الفرقة الثالثة</option>
+                        <option value="year4">الفرقة الرابعة</option>
+                        <option value="courses">كورسات البرمجة</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="files-grid" id="filesGrid">
+                <!-- الملفات ستظهر هنا عبر JavaScript -->
+            </div>
+            
+            <div class="download-center">
+                <h3><i class="fas fa-download"></i> مركز التحميل السريع</h3>
+                <div class="download-options">
+                    <button class="btn download-option-btn" data-download="all_pdfs">
+                        <i class="fas fa-file-archive"></i>
+                        <span>تحميل جميع ملفات PDF</span>
+                        <small>حجم: ~450 MB</small>
+                    </button>
+                    <button class="btn download-option-btn" data-download="year1_all">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>جميع مواد الفرقة الأولى</span>
+                        <small>حجم: ~85 MB</small>
+                    </button>
+                    <button class="btn download-option-btn" data-download="programming_courses">
+                        <i class="fas fa-code"></i>
+                        <span>كورسات البرمجة كاملة</span>
+                        <small>حجم: ~220 MB</small>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- تذييل الصفحة -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="joker-logo-small">J</span>
+                        <h3>@JOKER_972005</h3>
+                    </div>
+                    <p class="footer-description">
+                        المنصة التعليمية الرسمية للكلية، توفر جميع المواد الدراسية والكورسات البرمجية للطلاب.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul class="footer-links">
+                        <li><a href="#year1"><i class="fas fa-chevron-left"></i> الفرقة الأولى</a></li>
+                        <li><a href="#year2"><i class="fas fa-chevron-left"></i> الفرقة الثانية</a></li>
+                        <li><a href="#year3"><i class="fas fa-chevron-left"></i> الفرقة الثالثة</a></li>
+                        <li><a href="#year4"><i class="fas fa-chevron-left"></i> الفرقة الرابعة</a></li>
+                        <li><a href="#programming"><i class="fas fa-chevron-left"></i> كورسات البرمجة</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>الدعم والمساعدة</h4>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-left"></i> الأسئلة الشائعة</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-left"></i> كيفية التحميل</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-left"></i> الإبلاغ عن مشكلة</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-left"></i> تواصل معنا</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-left"></i> سياسة الخصوصية</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>إحصائيات الموقع</h4>
+                    <div class="footer-stats">
+                        <div class="footer-stat">
+                            <i class="fas fa-file-pdf"></i>
+                            <div>
+                                <span class="stat-number">500+</span>
+                                <span class="stat-label">ملف تعليمي</span>
+                            </div>
+                        </div>
+                        <div class="footer-stat">
+                            <i class="fas fa-download"></i>
+                            <div>
+                                <span class="stat-number">15,000+</span>
+                                <span class="stat-label">تحميل</span>
+                            </div>
+                        </div>
+                        <div class="footer-stat">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <span class="stat-number">1,500+</span>
+                                <span class="stat-label">طالب نشط</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>© 2024 @JOKER_972005 - جميع الحقوق محفوظة</p>
+                    <p class="disclaimer">هذا الموقع تعليمي غير ربحي، جميع المواد للأغراض التعليمية فقط</p>
+                </div>
+                <div class="footer-info">
+                    <p><i class="fas fa-sync-alt"></i> آخر تحديث: 20 يناير 2024</p>
+                    <p><i class="fas fa-server"></i> الإصدار 2.1.0</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- مودال عرض الملف -->
+    <div class="file-modal" id="fileModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalFileName"></h3>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="file-preview">
+                    <div class="pdf-preview">
+                        <i class="fas fa-file-pdf"></i>
+                        <span>معاينة PDF</span>
+                    </div>
+                </div>
+                <div class="file-info">
+                    <div class="info-item">
+                        <i class="fas fa-hdd"></i>
+                        <div>
+                            <strong>حجم الملف:</strong>
+                            <span id="modalFileSize"></span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-calendar"></i>
+                        <div>
+                            <strong>تاريخ الرفع:</strong>
+                            <span id="modalFileDate"></span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-download"></i>
+                        <div>
+                            <strong>عدد التحميلات:</strong>
+                            <span id="modalFileDownloads"></span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <strong>الفئة:</strong>
+                            <span id="modalFileCategory"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <a href="#" class="btn modal-download-btn" id="modalDownloadLink" download>
+                        <i class="fas fa-download"></i> تحميل الملف
+                    </a>
+                    <button class="btn modal-view-btn" id="modalViewBtn">
+                        <i class="fas fa-eye"></i> معاينة الملف
+                    </button>
+                    <button class="btn modal-share-btn" id="modalShareBtn">
+                        <i class="fas fa-share-alt"></i> مشاركة
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- نافذة تسجيل الدخول -->
+    <div class="login-modal" id="loginModal">
+        <div class="login-content">
+            <button class="close-login">&times;</button>
+            <div class="login-header">
+                <h3><i class="fas fa-sign-in-alt"></i> دخول الطالب</h3>
+                <p>أدخل بيانات الدخول لحسابك</p>
+            </div>
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="studentId"><i class="fas fa-id-card"></i> الرقم الجامعي</label>
+                    <input type="text" id="studentId" placeholder="أدخل الرقم الجامعي" required>
+                </div>
+                <div class="form-group">
+                    <label for="password"><i class="fas fa-lock"></i> كلمة المرور</label>
+                    <input type="password" id="password" placeholder="أدخل كلمة المرور" required>
+                </div>
+                <div class="form-options">
+                    <label class="remember-me">
+                        <input type="checkbox" id="rememberMe">
+                        <span>تذكرني</span>
+                    </label>
+                    <a href="#" class="forgot-password">نسيت كلمة المرور؟</a>
+                </div>
+                <button type="submit" class="btn login-submit-btn">
+                    <i class="fas fa-sign-in-alt"></i> تسجيل الدخول
+                </button>
+                <div class="register-link">
+                    <p>ليس لديك حساب؟ <a href="#" id="registerLink">سجل الآن</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- زر العودة للأعلى -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- قائمة تنقل سريعة للأجهزة المحمولة -->
+    <div class="mobile-nav">
+        <a href="#home" class="mobile-nav-item active">
+            <i class="fas fa-home"></i>
+            <span>الرئيسية</span>
+        </a>
+        <a href="#year1" class="mobile-nav-item">
+            <i class="fas fa-graduation-cap"></i>
+            <span>الفرق</span>
+        </a>
+        <a href="#programming" class="mobile-nav-item">
+            <i class="fas fa-code"></i>
+            <span>كورسات</span>
+        </a>
+        <a href="#library" class="mobile-nav-item">
+            <i class="fas fa-download"></i>
+            <span>التحميل</span>
+        </a>
+    </div>
+
+    <!-- عنصر تحميل -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="joker-loader">
+                <span>J</span>
+            </div>
+            <p>جاري التحميل...</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="موقع شخصي.js"></script>
+</body>
+</html>
